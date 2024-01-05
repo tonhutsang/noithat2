@@ -1,0 +1,129 @@
+main
+{
+    margin-top: 100px;
+}
+
+.breadscrum
+{
+    display: flex;
+    gap: 10px;
+    max-width: 80%;
+    margin: auto;
+    font-size: 15px;
+    margin: 15px auto;
+    margin-top: 40px !important;
+}
+
+.breadscrum a
+{
+    color: rgb(117, 115, 115);
+}
+
+.navigate--current
+{
+    font-weight: bold;
+    color: black !important;
+}
+
+.contacts
+{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    height: 500px;
+    position: relative;
+    justify-content: center;
+}
+
+.contacts .card
+{
+    border-right: 1px solid rgb(233, 233, 233);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-right: 30px;
+}
+
+.contacts .card form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.contacts .inputs
+{
+    display: flex;
+    gap: 20px;
+}
+
+.contacts .inputs div
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.contacts .inputs div input, .textarea
+{
+    margin-top: 5px;
+    height: 30px;
+    outline: none;
+    border: 1px solid rgb(180, 179, 179);
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+.contacts .title-input
+{
+    font-size: 14px;
+    color: rgb(70, 70, 70);
+}
+
+
+.contacts .card p, h3
+{
+    margin: unset;
+}
+
+.textarea
+{
+    width: calc(100% - 10px);
+    padding-top: 5px;
+    height: 200px;
+}
+
+.contact-submit
+{
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: unset;
+    background-color: rgb(10, 6, 6);
+    cursor: grab;
+}
+
+.contacts .info div p
+{
+    font-size: 14px;
+    color: rgb(70, 70, 70);
+}
+
+.contacts .info div h1, .contact--title
+{
+    font-size: 18px;
+}
+
+.contact--title
+{
+    margin-top: 10px;
+}
+.contact-subtitle
+{
+    font-size: 14px;
+    color: rgb(70, 70, 70);
+}
